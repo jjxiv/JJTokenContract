@@ -21,6 +21,4 @@ Once you are on the Remix website, create a new file by clicking on the "+" icon
 * Deploy the smart contract from the left pane and test the values for minting and burning a token.
 
 ## Authors
-
-Metacrafter Chris  
-[@metacraftersio](https://twitter.com/metacraftersio)
+Jericho John Almoro
