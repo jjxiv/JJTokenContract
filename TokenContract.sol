@@ -26,13 +26,13 @@ contract MyToken {
     mapping(address => uint) public balances;
 
     // mint function
-    function mintFunc (address addr, uint val) private {
+    function mintFunc (address addr, uint val) public {
         totalSupply += val;
         balances[addr] += val;
     }
 
     // burn function
-    function burnFunc (address addr, uint val) private {
+    function burnFunc (address addr, uint val) public {
         if (balances[addr] >= val){
             totalSupply -= val;
             balances[addr] -= val;
